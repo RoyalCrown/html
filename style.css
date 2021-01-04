@@ -1,0 +1,79 @@
+/*
+#F0F7D4 - light
+#B2D732 - l.green
+#66B032 - d.green
+#347B98 - l.blue
+#092834 - d.blue
+*/
+
+body {
+  color: #F0F7D4;
+  margin: 0;
+}
+
+#header {
+  background-color: #B2D732;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#footer {
+  background-color: #347B98;
+  padding: 50px 0;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
+
+#footer a {
+  color: white;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+p {
+  color: #092834;
+}
+
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about h1 {
+  color: #092834;
+}
+
+.about-author img {
+  border-radius: 50%;
+}
